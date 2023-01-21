@@ -21,6 +21,18 @@
       ]
     },
     "input": {
+     "covariates": {
+        "label": "Covariates",
+        "type": "csv",
+        "items": [
+          "boolean",
+          "number",
+          "string"
+        ],
+        "source": "member",
+        "order": 1
+      },
+
       "data": {
         "label": "Data",
         "type": "files",
